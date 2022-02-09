@@ -9,7 +9,7 @@ calculateBtn.addEventListener('click', function(){
   
   // Monthly Rent Equation
   let uiGrossAnnualRent = document.getElementById('gross_annual_rent_display').value =
-  parseFloat(uiGrossMonthlyRent) * 12;
+  parseFloat((uiGrossMonthlyRent) * 12).toFixed(2);
   
   // Gross ROI Equation
   let uiGrossRoi = document.getElementById('gross_roi').value = 
