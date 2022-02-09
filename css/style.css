@@ -10,6 +10,18 @@ body {
   font-family: 'Didact Gothic', sans-serif;
 }
 
+/* Navbar */
 #main_logo {
   width: 100px;
+}
+
+/* Action Buttons */
+.btn-success:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.btn-danger:hover {
+  background-color: transparent;
+  color: black;
 }
