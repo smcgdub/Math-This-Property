@@ -1,0 +1,11 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Didact Gothic', sans-serif;
+}
