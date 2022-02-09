@@ -21,7 +21,7 @@ body {
   color: black;
 }
 
-.btn-danger:hover {
+.btn-secondary:hover {
   background-color: transparent;
   color: black;
 }
