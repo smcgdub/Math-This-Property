@@ -1,6 +1,7 @@
 // Buttons
 const calculateBtn = document.getElementById('calculate_btn');
 const resetBtnCosts = document.getElementById('reset_btn_costs');
+const resetBtnCostsAnnual = document.getElementById('reset_annual_btn_costs');
 const resetBtn = document.getElementById('reset_btn');
 
 calculateBtn.addEventListener('click', function(){
@@ -35,12 +36,20 @@ calculateBtn.addEventListener('click', function(){
   parseFloat((uiNetAnnualRent) / parseFloat(uiPurchasePrice) * 100).toFixed(2);
 })
 
-// Reset Costs Button
+// Reset Monthly Costs Button
 resetBtnCosts.addEventListener('click', function(){
   document.getElementById('additional_cost_1').value = '';
   document.getElementById('additional_cost_2').value = '';
   document.getElementById('additional_cost_3').value = '';
   document.getElementById('additional_cost_4').value = '';
+});
+
+// Reset Annual Costs Button
+resetBtnCostsAnnual.addEventListener('click', function(){
+  document.getElementById('annual_cost_1').value = '';
+  document.getElementById('annual_cost_2').value = '';
+  document.getElementById('annual_cost_3').value = '';
+  document.getElementById('annual_cost_4').value = '';
 });
 
 // Reset Whole Calculator Button
@@ -51,6 +60,10 @@ resetBtn.addEventListener('click', function(){
   document.getElementById('additional_cost_2').value = '';
   document.getElementById('additional_cost_3').value = '';
   document.getElementById('additional_cost_4').value = '';
+  document.getElementById('annual_cost_1').value = '';
+  document.getElementById('annual_cost_2').value = '';
+  document.getElementById('annual_cost_3').value = '';
+  document.getElementById('annual_cost_4').value = '';
   document.getElementById('gross_annual_rent_display').value = '';
   document.getElementById('total_annual_deductions').value = '';
   document.getElementById('net_annual_rent_display').value = '';
