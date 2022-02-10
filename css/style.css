@@ -8,11 +8,18 @@
 
 body {
   font-family: 'Didact Gothic', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navbar */
 #main_logo {
   width: 100px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  background-color: transparent;
+  color: black;
+  padding-left: 12px !important;
 }
 
 /* Action Buttons */
