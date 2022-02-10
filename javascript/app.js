@@ -47,6 +47,13 @@ resetBtnCosts.addEventListener('click', function(){
 resetBtn.addEventListener('click', function(){
   document.getElementById('purchase_price').value = '';
   document.getElementById('gross_monthly_rent_input').value = '';
+  document.getElementById('additional_cost_1').value = '';
+  document.getElementById('additional_cost_2').value = '';
+  document.getElementById('additional_cost_3').value = '';
+  document.getElementById('additional_cost_4').value = '';
   document.getElementById('gross_annual_rent_display').value = '';
+  document.getElementById('total_annual_deductions').value = '';
+  document.getElementById('net_annual_rent_display').value = '';
   document.getElementById('gross_roi').value = '';
+  document.getElementById('net_roi').value = '';
 });
