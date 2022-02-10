@@ -1,5 +1,6 @@
 // Buttons
 const calculateBtn = document.getElementById('calculate_btn');
+const resetBtnCosts = document.getElementById('reset_btn_costs');
 const resetBtn = document.getElementById('reset_btn');
 
 calculateBtn.addEventListener('click', function(){
@@ -34,7 +35,15 @@ calculateBtn.addEventListener('click', function(){
   parseFloat((uiNetAnnualRent) / parseFloat(uiPurchasePrice) * 100).toFixed(2);
 })
 
-// Reset Calculator Button
+// Reset Costs Button
+resetBtnCosts.addEventListener('click', function(){
+  document.getElementById('additional_cost_1').value = '';
+  document.getElementById('additional_cost_2').value = '';
+  document.getElementById('additional_cost_3').value = '';
+  document.getElementById('additional_cost_4').value = '';
+});
+
+// Reset Whole Calculator Button
 resetBtn.addEventListener('click', function(){
   document.getElementById('purchase_price').value = '';
   document.getElementById('gross_monthly_rent_input').value = '';

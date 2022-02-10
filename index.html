@@ -101,7 +101,7 @@
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <!-- Additional Cost 1 -->
-                  <label for="additional_cost_1">Additional Monthly Cost 1</label>
+                  <label for="additional_cost_1">Additional Monthly Cost 1 -<em>(if applicable)</em></label>
                   <div class="input-group mb-3">
                     <input id="additional_cost_1" type="number" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 1" aria-describedby="" min="0.01" step="0.01">
@@ -112,7 +112,7 @@
                     </span>
                   </div>
                   <!-- Additional Cost 2 -->
-                  <label for="additional_cost_2">Additional Monthly Cost 2</label>
+                  <label for="additional_cost_2">Additional Monthly Cost 2 -<em>(if applicable)</em></label>
                   <div class="input-group mb-3">
                     <input id="additional_cost_2" type="number" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 2" aria-describedby="" min="0.01" step="0.01">
@@ -123,7 +123,7 @@
                     </span>
                   </div>
                   <!-- Additional Cost 3 -->
-                  <label for="additional_cost_3">Additional Monthly Cost 3</label>
+                  <label for="additional_cost_3">Additional Monthly Cost 3 -<em>(if applicable)</em></label>
                   <div class="input-group mb-3">
                     <input id="additional_cost_3" type="number" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 3" aria-describedby="" min="0.01" step="0.01">
@@ -134,7 +134,7 @@
                     </span>
                   </div>
                   <!-- Additional Cost 4 -->
-                  <label for="additional_cost_4">Additional Monthly Cost 4</label>
+                  <label for="additional_cost_4">Additional Monthly Cost 4 -<em>(if applicable)</em></label>
                   <div class="input-group mb-3">
                     <input id="additional_cost_4" type="number" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 4" aria-describedby="" min="0.01" step="0.01">
@@ -144,12 +144,17 @@
                       <!-- <a href="https://icons8.com/icon/3htu5iG8I8sI/money">Money icon by Icons8</a> -->
                     </span>
                   </div>
+                  <!-- Reset monthly costs button -->
+                  <button id="reset_btn_costs" type="submit" class="btn btn-secondary">
+                    <span class="pe-1">Reset Costs</span>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Annual Rent -->
+          <h4 class="text-center">The Results</h4>
+          <!-- Gross Annual Rent -->
           <label for="gross_annual_rent_display">Gross Annual Rent</label>
           <div class="input-group mb-3">
             <input id="gross_annual_rent_display" type="number" class="form-control" placeholder="0.00"
@@ -220,7 +225,7 @@
 
           <!-- Reset Button -->
           <button id="reset_btn" type="submit" class="btn btn-secondary">
-            <span class="pe-1">Reset</span>
+            <span class="pe-1">Reset All</span>
           </button>
         </div>
       </div>
