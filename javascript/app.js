@@ -50,7 +50,7 @@ calculateBtn.addEventListener('click', function(){
 
   // Total Deductions
   let totalDeductions = document.getElementById('total_annual_deductions').value = 
-  parseFloat((uiTotalMonthlyDeductions) + parseFloat(uiTotalAnnualDeductions)).toFixed(2);
+  parseFloat(uiTotalMonthlyDeductions) + parseFloat(uiTotalAnnualDeductions);
   console.log("Total deductions :" + totalDeductions)
 
   // Net Annual Rent Equation
