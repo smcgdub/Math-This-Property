@@ -31,7 +31,7 @@ This is a real estate app that allows landlords, investors, and prospective buye
   * 3.6 Google Fonts 
   * 3.7 Icons8
   * 3.8 Balsamiq
-  * 3.9 Animate.css
+  * 3.9 Still to add animations
   * 3.10 Favicon.io
 
   ### **4. Testing**
@@ -157,6 +157,24 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 * I may also add a dark mode to the project. I am yet to finalize the design aspect of the project so a dark mode will depend on the primary design i decide to go with. 
 
+</details>
+
+<hr>
+
+<details>
+<summary><strong>3. Technologies/Languages Used</strong></summary>
+<br/>
+
+3.1 [VSCode](https://code.visualstudio.com/) - Is the IDE i used for this project<br>
+3.2 [HTML5 - Hypertext Markup Language](https://html.com/html5/#What_is_HTML) - This is the markup language i used for this project.<br>
+3.3 [CSS - Cascading Style Sheet](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
+3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript was used to do the mathematics to give the user the full breakdown<br>
+3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
+3.6 [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
+3.7 [Icons8](https://icons8.com/) - You can see a short YouTube video about Icons8 by clicking [Here](https://www.youtube.com/watch?v=C4TcBmdaa-Q&t=40s).<br>
+3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.
+3.9 Need to add animations at a later date
+3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project
 </details>
 
 <hr>
