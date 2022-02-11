@@ -178,3 +178,12 @@ This is a real estate app that allows landlords, investors, and prospective buye
 </details>
 
 <hr>
+
+<details>
+<summary><strong>4.Testing</strong></summary>
+<br>
+
+* Testing information can be found in the [testing.md](testing.md) file
+</details>
+
+<hr>
