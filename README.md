@@ -187,3 +187,66 @@ This is a real estate app that allows landlords, investors, and prospective buye
 </details>
 
 <hr>
+
+<details>
+<summary><strong>5.Deployment</strong></summary>
+<br>
+
+#### **5.1 Deployment**  
+
+To deploy the site on Github i undertook the following steps:
+
+1. Navigated to my profile page on Github
+2. Selected this project from the repositories
+3. Clicked on settings
+4. Scroll down to the Github pages section 
+5. Click where is says source and in the dropdown menu select master 
+6. Click on the next dropdown menu to the right select /(root)
+7. Click save
+
+You will then receive a confirmation saying the page has been published and also be provided with the link where people can view your site.
+
+![Image of page published confirmation](images/readme_images/github_pages_published.png)
+
+The link to view the live site can be found by clicking [Here](https://smcgdub.github.io/Math-This-Property/index.html)
+
+#### **5.2 Cloning**
+
+You can clone the projects repository to your local computer by following the steps below:
+
+Cloning a repository using the command line
+
+1. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Math-This-Property
+2. Click on the tab that says < >code 
+3. Above the files, click the button that says &#8595;code
+
+![Github code button](assets/images/github-code-button.png)
+
+4. From the menu select HTTPS
+5. Click on the clipboard icon on the right hand side (Image below)
+
+![Github copy link button](assets/images/github-clipboard.png)
+
+6. Open the terminal in your IDE
+7. Change the current working directory to the location where you want the cloned directory.
+8. In terminal type `git clone` and then paste the URL you copied earlier 
+9. Press Enter to create your local clone.
+
+#### **5.3 Cloning Desktop**
+You can also clone the project using Github Desktop. To do this you can do the following: 
+
+1. Download Github Desktop if you do not already have it installed. The link can be found here [Github Desktop](https://desktop.github.com/)
+2. Sign in to GitHub and GitHub Desktop before you start to clone.
+3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Math-This-Property
+4. Click on the tab that says <details >code 
+5. Above the files, click the button that says &#8595;code
+
+![Github code button](assets/images/github-code-button.png)
+
+6. Click open with GitHub Desktop to clone and open the repository with GitHub Desktop.
+7. Click Choose... and, using the Finder window, navigate to a local path where you want to clone the repository.
+8. Click clone 
+
+</details>
+
+<hr>
