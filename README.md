@@ -266,4 +266,18 @@ You can also clone the project using Github Desktop. To do this you can do the f
 #### **6.3 Acknowledgements**
 
 </details>
+
+<hr>
+
+<details>
+<summary><strong>7.Contact</strong></summary>
+<br>
+
+Feel free to contact me on any of the following channels:<br>
+
+* 7.1 [LinkedIn](https://www.linkedin.com/in/stephenmcgovern01/)<br>
+* 7.2 [Email](mailto:stephen_xyz1@hotmail.com)<br>
+* 7.3 [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
+</details>
+
 <hr>
