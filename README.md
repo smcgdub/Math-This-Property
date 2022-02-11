@@ -172,8 +172,8 @@ This is a real estate app that allows landlords, investors, and prospective buye
 3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
 3.6 [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
 3.7 [Icons8](https://icons8.com/) - You can see a short YouTube video about Icons8 by clicking [Here](https://www.youtube.com/watch?v=C4TcBmdaa-Q&t=40s).<br>
-3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.
-3.9 Need to add animations at a later date
+3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
+3.9 Need to add animations at a later date<br>
 3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project
 </details>
 
@@ -278,6 +278,15 @@ Feel free to contact me on any of the following channels:<br>
 * 7.1 [LinkedIn](https://www.linkedin.com/in/stephenmcgovern01/)<br>
 * 7.2 [Email](mailto:stephen_xyz1@hotmail.com)<br>
 * 7.3 [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
+</details>
+
+<hr>
+
+<details>
+<summary><strong>8. Contact</strong></summary>
+<br>
+
+* 8.1  This website and all of its content is for educational purposes only. There is no monetization or revenue generated from this site.
 </details>
 
 <hr>
