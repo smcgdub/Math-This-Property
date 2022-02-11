@@ -84,9 +84,9 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **FONTS**
 
-* 
+* The ont i have chosen for this project is [Didact Gothic](https://fonts.google.com/specimen/Didact+Gothic?query=dida&sort=popularity&preview.text=This%20is%20how%20the%20font%20will%20look&preview.text_type=custom#standard-styles). Didact Gothic is a sans-serif font designed to present each letter in the form most often used in elementary classrooms. This makes it suitable for literacy efforts.
 
-![Image of how the font will look](images/readme_images/)
+![Image of how the font will look](images/readme_images/math_my_property_font.png)
 
 #### **ICONS**
 
