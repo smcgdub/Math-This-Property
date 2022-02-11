@@ -250,3 +250,20 @@ You can also clone the project using Github Desktop. To do this you can do the f
 </details>
 
 <hr>
+
+<details>
+<summary><strong>6.Credits</strong></summary> 
+<br>
+
+#### **6.1 Media** 
+
+ * All of the icons i used for the project were from Icons8. All credit for these icons goes to [Icons8](https://icons8.com/)
+
+#### **6.2 Code** 
+
+* All of the code in the project i have written myself 
+
+#### **6.3 Acknowledgements**
+
+</details>
+<hr>
