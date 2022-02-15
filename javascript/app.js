@@ -18,10 +18,15 @@ calculateBtn.addEventListener('click', function(){
   let uiAdditionalCost2 = parseFloat(document.getElementById('additional_cost_2').value);
   let uiAdditionalCost3 = parseFloat(document.getElementById('additional_cost_3').value);
   let uiAdditionalCost4 = parseFloat(document.getElementById('additional_cost_4').value);
+  // Total Monthly Costs Breakdown
+  let uiTotalMonthlyCosts = document.getElementById('total_monthly_costs_display').value = 
+  parseFloat(uiAdditionalCost1 + uiAdditionalCost2 + uiAdditionalCost3 + uiAdditionalCost4)
+
   console.log("Monthly cost 1 :" + uiAdditionalCost1)
   console.log("Monthly cost 2 :" + uiAdditionalCost2)
   console.log("Monthly cost 3 :" + uiAdditionalCost3)
   console.log("Monthly cost 4 :" + uiAdditionalCost4)
+  console.log("Total Monthly Costs " + uiTotalMonthlyCosts)
   console.log("Total Monthly Costs " + parseFloat(uiAdditionalCost1 + uiAdditionalCost2 + uiAdditionalCost3 + uiAdditionalCost4) * 12)
 
   // Additional Annual Cost Inputs
@@ -29,10 +34,15 @@ calculateBtn.addEventListener('click', function(){
   let uiAnnualCost2 = parseFloat(document.getElementById('annual_cost_2').value);
   let uiAnnualCost3 = parseFloat(document.getElementById('annual_cost_3').value);
   let uiAnnualCost4 = parseFloat(document.getElementById('annual_cost_4').value);
+  // Total Annual Costs Breakdown
+  let uiTotalAnnualCosts = document.getElementById('total_annual_costs_display').value = 
+  parseFloat(uiAnnualCost1 + uiAnnualCost2 + uiAnnualCost3 + uiAnnualCost4)
+  
   console.log("Annual Cost 1 :" + uiAnnualCost1)
   console.log("Annual Cost 2 :" + uiAnnualCost2)
   console.log("Annual Cost 3 :" + uiAnnualCost3)
   console.log("Annual Cost 4 :" + uiAnnualCost4)
+  console.log("Total Monthly Costs " + uiTotalAnnualCosts)
   console.log("Total Annual Costs " + parseFloat(uiAnnualCost1 + uiAnnualCost2 + uiAnnualCost3 + uiAnnualCost4))
 
   // Gross Annual Rent Equation
