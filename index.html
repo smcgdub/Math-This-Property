@@ -16,6 +16,9 @@
   <!-- External Css -->
   <link rel="stylesheet" href="css/style.css">
   <title>Math This Property</title>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -79,7 +82,7 @@
           <!-- Monthly Rent -->
           <label for="gross_monthly_rent_input">Gross Monthly Rent</label>
           <div class="input-group mb-3">
-            <input id="gross_monthly_rent_input" type="number" class="form-control" placeholder="0.00"
+            <input id="gross_monthly_rent_input" type="currency" class="form-control" placeholder="0.00"
               aria-label="Gross Monthly Rent" aria-describedby="" value="0.00" required>
             <span class="input-group-text" id=""><img
                 src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/40/000000/external-rent-rental-property-xnimrodx-lineal-color-xnimrodx.png" /></span>
@@ -100,10 +103,10 @@
               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <!-- Additional Cost 1 -->
+                  <!-- Additional Monthly Cost 1 -->
                   <label for="additional_cost_1">Additional Monthly Cost 1</label>
                   <div class="input-group mb-3">
-                    <input id="additional_cost_1" type="number" class="form-control" placeholder="0.00"
+                    <input id="additional_cost_1" type="text" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 1" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -111,10 +114,10 @@
                       <!-- <a href="https://icons8.com/icon/3htu5iG8I8sI/money">Money icon by Icons8</a> -->
                     </span>
                   </div>
-                  <!-- Additional Cost 2 -->
+                  <!-- Additional Monthly Cost 2 -->
                   <label for="additional_cost_2">Additional Monthly Cost 2</label>
                   <div class="input-group mb-3">
-                    <input id="additional_cost_2" type="number" class="form-control" placeholder="0.00"
+                    <input id="additional_cost_2" type="text" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 2" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -122,10 +125,10 @@
                       <!-- <a href="https://icons8.com/icon/3htu5iG8I8sI/money">Money icon by Icons8</a> -->
                     </span>
                   </div>
-                  <!-- Additional Cost 3 -->
+                  <!-- Additional Monthly Cost 3 -->
                   <label for="additional_cost_3">Additional Monthly Cost 3</label>
                   <div class="input-group mb-3">
-                    <input id="additional_cost_3" type="number" class="form-control" placeholder="0.00"
+                    <input id="additional_cost_3" type="text" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 3" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -133,10 +136,10 @@
                       <!-- <a href="https://icons8.com/icon/3htu5iG8I8sI/money">Money icon by Icons8</a> -->
                     </span>
                   </div>
-                  <!-- Additional Cost 4 -->
+                  <!-- Additional Monthly Cost 4 -->
                   <label for="additional_cost_4">Additional Monthly Cost 4</label>
                   <div class="input-group mb-3">
-                    <input id="additional_cost_4" type="number" class="form-control" placeholder="0.00"
+                    <input id="additional_cost_4" type="text" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 4" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -147,7 +150,7 @@
                   <!-- Total Monthly Costs -->
                   <label for="total_monthly_costs_display">Total Monthly Costs</label>
                   <div class="input-group mb-3">
-                    <input id="total_monthly_costs_display" type="number" class="form-control" placeholder="0.00"
+                    <input id="total_monthly_costs_display" type="text" class="form-control" placeholder="0.00"
                       aria-label="Additional Cost 4" aria-describedby="" min="0.01" step="0.01" value="0.00" disabled>
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -180,7 +183,7 @@
                   <!-- Annual Cost 1 -->
                   <label for="annual_cost_1">Annual Cost 1</label>
                   <div class="input-group mb-3">
-                    <input id="annual_cost_1" type="number" class="form-control" placeholder="0.00"
+                    <input id="annual_cost_1" type="text" class="form-control" placeholder="0.00"
                       aria-label="Annual Cost 1" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -191,7 +194,7 @@
                   <!-- Annual Cost 2 -->
                   <label for="annual_cost_2">Annual Cost 2</label>
                   <div class="input-group mb-3">
-                    <input id="annual_cost_2" type="number" class="form-control" placeholder="0.00"
+                    <input id="annual_cost_2" type="text" class="form-control" placeholder="0.00"
                       aria-label="Annual Cost 2" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -202,7 +205,7 @@
                   <!-- Annual Cost 3 -->
                   <label for="annual_cost_3">Annual Cost 3</label>
                   <div class="input-group mb-3">
-                    <input id="annual_cost_3" type="number" class="form-control" placeholder="0.00"
+                    <input id="annual_cost_3" type="text" class="form-control" placeholder="0.00"
                       aria-label="Annual Cost 3" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -213,7 +216,7 @@
                   <!-- Annual Cost 4 -->
                   <label for="annual_cost_4">Annual Cost 4</label>
                   <div class="input-group mb-3">
-                    <input id="annual_cost_4" type="number" class="form-control" placeholder="0.00"
+                    <input id="annual_cost_4" type="text" class="form-control" placeholder="0.00"
                       aria-label="Annual Cost 4" aria-describedby="" min="0.01" step="0.01" value="0.00">
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -224,7 +227,7 @@
                   <!-- Total Annual Costs -->
                   <label for="total_annual_costs_display">Total Annual Costs</label>
                   <div class="input-group mb-3">
-                    <input id="total_annual_costs_display" type="number" class="form-control" placeholder="0.00"
+                    <input id="total_annual_costs_display" type="text" class="form-control" placeholder="0.00"
                       aria-label="Annual Cost 4" aria-describedby="" min="0.01" step="0.01" value="0.00" disabled>
                     <span class="input-group-text" id=""><img
                         src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -245,7 +248,7 @@
           <!-- Gross Annual Rent -->
           <label for="gross_annual_rent_display">Gross Annual Rent</label>
           <div class="input-group mb-3">
-            <input id="gross_annual_rent_display" type="number" class="form-control" placeholder="0.00"
+            <input id="gross_annual_rent_display" type="text" class="form-control" placeholder="0.00"
               aria-label="Gross Annual Rent" aria-describedby="" disabled>
             <span class="input-group-text" id=""><img
                 src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/40/000000/external-real-estate-financial-itim2101-lineal-color-itim2101.png" /></span>
@@ -256,7 +259,7 @@
           <!-- Total Annual Deductions -->
           <label for="total_annual_deductions">Total Annual Deductions</label>
           <div class="input-group mb-3">
-            <input id="total_annual_deductions" type="number" class="form-control" placeholder="0.00"
+            <input id="total_annual_deductions" type="text" class="form-control" placeholder="0.00"
               aria-label="Total Annual Deductions" aria-describedby="" disabled>
             <span class="input-group-text" id=""><img
                 src="https://img.icons8.com/external-becris-lineal-color-becris/40/000000/external-money-cryptocurrency-blockchain-becris-lineal-color-becris.png" />
@@ -267,7 +270,7 @@
           <!-- Net Annual Rent -->
           <label for="net_annual_rent_display">Net Annual Rent</label>
           <div class="input-group mb-3">
-            <input id="net_annual_rent_display" type="number" class="form-control" placeholder="0.00"
+            <input id="net_annual_rent_display" type="text" class="form-control" placeholder="0.00"
               aria-label="Total Annual Deductions" aria-describedby="" disabled>
             <span class="input-group-text" id=""><img
                 src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/40/000000/external-pocket-business-and-finance-icongeek26-linear-colour-icongeek26.png" />
@@ -327,6 +330,7 @@
   <br>
   <br>
   <br>
+
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
