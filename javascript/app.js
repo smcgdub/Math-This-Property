@@ -4,8 +4,7 @@ const resetBtnCosts = document.getElementById('reset_btn_costs');
 const resetBtnCostsAnnual = document.getElementById('reset_annual_btn_costs');
 const resetBtn = document.getElementById('reset_btn');
 const calculateMonthlyBtn = document.getElementById('calculate_monthly_btn');
-
-
+const calculateAnnualBtn = document.getElementById('calculate_annual_costs_btn');
 
 calculateBtn.addEventListener('click', function(){
   // Variables
@@ -151,7 +150,7 @@ resetBtnCostsAnnual.addEventListener('click', function(){
   document.getElementById('total_annual_costs_display').value = 0.00.toFixed(2);
 });
 
-
+// Calculate Monthly Costs Button
 calculateMonthlyBtn.addEventListener('click', function(){
   // Output numbers with currency
   let dollarUSLocale = Intl.NumberFormat('en-US');
@@ -165,7 +164,19 @@ calculateMonthlyBtn.addEventListener('click', function(){
   dollarUSLocale.format(uiTotalMonthlyCosts);
 });
 
+// Calculate Annual Costs Button
+calculateAnnualBtn.addEventListener('click', function(){
+  // Output numbers with currency
+  let dollarUSLocale = Intl.NumberFormat('en-US');
 
+  let uiAnnualCost1 = parseFloat(document.getElementById('annual_cost_1').value);
+  let uiAnnualCost2 = parseFloat(document.getElementById('annual_cost_2').value);
+  let uiAnnualCost3 = parseFloat(document.getElementById('annual_cost_3').value);
+  let uiAnnualCost4 = parseFloat(document.getElementById('annual_cost_4').value);
+  let uiTotalAnnualCosts = parseFloat(uiAnnualCost1 + uiAnnualCost2 + uiAnnualCost3 + uiAnnualCost4);
+  let uiTotalAnnualCostsDisplay = document.getElementById('total_annual_costs_display').value = 
+  dollarUSLocale.format(uiTotalAnnualCosts);
+});
 // Reset Whole Calculator Button
 // resetBtn.addEventListener('click', function(){
 //   document.getElementById('purchase_price').value = '';
