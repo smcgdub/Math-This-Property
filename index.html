@@ -69,7 +69,7 @@
           <!-- Property Value Input -->
           <label for="purchase_price">Purchase Price</label>
           <div class="input-group mb-3">
-            <input id="purchase_price" type="number" class="form-control" placeholder="0.00"
+            <input id="purchase_price" type="number" class="form-control" placeholder=""
               aria-label="Recipient's username" aria-describedby="" min="0.01" step="0.01" data-type="currency"
               value="0.00" required>
             <span class="input-group-text" id=""><img
@@ -92,12 +92,12 @@
 
           <!-- Additional Monthly Costs Accordion -->
           <div class="accordion mb-3" id="accordionExample">
-            <label for="">Add additional monthly costs <em>(if applicable)</em></label>
+            <!-- <label for="">Add monthly costs <em>(if applicable)</em></label> -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  Click here to add
+                  <span>Add monthly costs - <em>(if applicable)</em></span>
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -159,13 +159,13 @@
                     </span>
                   </div>
                   <!-- Calculate Monthly Costs Button -->
-                  <button id="calculate_monthly_btn" type="submit" class="btn btn-success">
+                  <button id="calculate_monthly_btn" type="submit" class="btn btn-success mb-1 mb-sm-0">
                     <span class="pe-1">Calculate Monthly Costs</span>
                     <img
                       src="https://img.icons8.com/external-filled-outline-lima-studio/20/000000/external-magic-magic-filled-outline-lima-studio-2.png" />
                   </button>
                   <!-- Reset monthly costs button -->
-                  <button id="reset_btn_costs" type="submit" class="btn btn-secondary mb-1 mb-sm-0">
+                  <button id="reset_btn_costs" type="submit" class="btn btn-secondary">
                     <span class="pe-1">Reset Costs</span>
                   </button>
                 </div>
@@ -175,12 +175,12 @@
 
           <!-- Annual One Off Costs Accordion -->
           <div class="accordion mb-3" id="accordionExample">
-            <label for="">Add annual one off costs <em>(if applicable)</em></label>
+            <!-- <label for="">Add annual one off costs <em>(if applicable)</em></label> -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Click here to add
+                  <span>Add annual one off costs - <em>(if applicable)</em></span>
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -242,13 +242,13 @@
                     </span>
                   </div>
                   <!-- Calculate Annual Costs Button -->
-                  <button id="calculate_annual_costs_btn" type="submit" class="btn btn-success">
+                  <button id="calculate_annual_costs_btn" type="submit" class="btn btn-success mb-1 mb-sm-0">
                     <span class="pe-1">Calculate Annual Costs</span>
                     <img
                       src="https://img.icons8.com/external-filled-outline-lima-studio/20/000000/external-magic-magic-filled-outline-lima-studio-2.png" />
                   </button>
                   <!-- Reset annual costs button -->
-                  <button id="reset_annual_btn_costs" type="submit" class="btn btn-secondary mb-1 mb-sm-0">
+                  <button id="reset_annual_btn_costs" type="submit" class="btn btn-secondary">
                     <span class="pe-1">Reset Costs</span>
                   </button>
                 </div>

@@ -91,3 +91,7 @@ button {
   background-color: transparent;
   color: black;
 }
+
+.btn-secondary {
+  background-color: #808080;
+}
