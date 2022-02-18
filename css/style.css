@@ -77,6 +77,10 @@ input {
   padding-left: 12px !important;
 }
 
+.navbar-toggler {
+  border-color: #617B94 !important;
+}
+
 /* Action Buttons */
 button {
   border-radius: 0px !important;
@@ -85,6 +89,7 @@ button {
 .btn-success:hover {
   background-color: transparent;
   color: black;
+  border: 1px solid black;
 }
 
 .btn-secondary:hover {
@@ -95,6 +100,7 @@ button {
 .btn-success {
   background-color: #FFCC29;
   color: #000;
+  border: none;
 }
 
 .btn-secondary {

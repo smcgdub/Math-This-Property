@@ -41,11 +41,23 @@
       </button>
       <!-- Navbar Items -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <!-- <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a> -->
-          <a class="nav-link disabled">Site Still Under Construction</a>
+        <div class="navbar-nav ms-auto">
+
+          <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+          <a class="nav-link disabled ms-auto">Site Still Under Construction</a>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Request A Feature
+          </button>
+
+          <!-- Report A Bug Button - trigger modal -->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+            Report A Bug
+          </button>
+
+          <!-- <a class="nav-link ms-auto" href="#">Request A Feature</a>
+          <a class="nav-link ms-auto" href="#"><i class="fa-solid fa-bug-slash"></i>Report A Bug</a> -->
         </div>
       </div>
     </div>
@@ -56,6 +68,85 @@
     <div class="row">
       <div class="col">
         <hr>
+      </div>
+    </div>
+  </div>
+
+  <!-- Request A Feature Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"><i class="fas fa-cogs"></i> Request A Feature</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <!-- Request A Feature -->
+          <div class="row">
+            <div class="col-12">
+              <!-- Request A Feature Form -->
+              <form action="https://formsubmit.co/stephen@stephens-portfolio.com" method="POST">
+                <!-- Message Subject -->
+                <input type="hidden" name="_subject" value="Math This Property New Message - Feature">
+                <!-- Message Input -->
+                <div class="mb-3">
+                  <textarea class="form-control textarea" id="your_message" name="your_message" rows="15" minlength="5"
+                    spellcheck="true" required></textarea>
+                </div>
+                <!-- Send Button -->
+                <button type="submit" class="btn btn-success">Send Request<i class="fas fa-paper-plane"></i></button>
+                <!-- Close Button -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Redirect to thank you page -->
+                <!-- <input type="hidden" name="_next" value="https://stephens-portfolio.com/message_sent.html"> -->
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Footer -->
+        <div class="modal-footer"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Report A Modal -->
+  <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"><i class="fa-solid fa-bug"></i> Report A Bug</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <!-- Request A Feature -->
+          <div class="row">
+            <div class="col-12">
+              <!-- Request A Feature Form -->
+              <form action="https://formsubmit.co/stephen@stephens-portfolio.com" method="POST">
+                <!-- Message Subject -->
+                <input type="hidden" name="_subject" value="Math This Property New Message - Bug">
+                <!-- Message Input -->
+                <div class="mb-3">
+                  <textarea class="form-control textarea" id="your_message" name="your_message" rows="15" minlength="5"
+                    spellcheck="true" required></textarea>
+                </div>
+                <!-- Send Button -->
+                <button type="submit" class="btn btn-success">Send Request<i class="fas fa-paper-plane"></i></button>
+                <!-- Close Button -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Redirect to thank you page -->
+                <!-- <input type="hidden" name="_next" value="https://stephens-portfolio.com/message_sent.html"> -->
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Footer -->
+        <div class="modal-footer"></div>
       </div>
     </div>
   </div>
