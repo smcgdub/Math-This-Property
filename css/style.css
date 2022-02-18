@@ -11,6 +11,65 @@ body {
   overflow-x: hidden;
 }
 
+/* Input fields */
+input {
+  border-radius: 0px !important;
+}
+
+#purchase_price,
+#gross_monthly_rent_input,
+#additional_cost_1,
+#additional_cost_2,
+#additional_cost_3,
+#additional_cost_4,
+#annual_cost_1,
+#annual_cost_2,
+#annual_cost_3,
+#annual_cost_4 {
+  background-color: lightyellow;
+}
+
+/* Placeholder Text Colour */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000 !important;
+  opacity: 1 !important;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000 !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000 !important;
+}
+
+/* Icons Background */
+.input-group-text {
+  background-color: #fff;
+  border-radius: 0px;
+}
+
+/* Result fields */
+#total_monthly_costs_display,
+#total_annual_costs_display,
+#gross_annual_rent_display,
+#total_annual_deductions,
+#net_annual_rent_display,
+#gross_roi,
+#net_roi {
+  background-color: #617B94;
+  color: #fff;
+  border: 1px solid black !important;
+}
+
+button {
+  border-radius: 0px !important;
+}
+
 /* Navbar */
 #main_logo {
   width: 100px;
