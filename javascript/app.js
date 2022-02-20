@@ -93,14 +93,25 @@ calculateBtn.addEventListener('click', function(){
   dollarUSLocale.format(uiNetAnnualRent); 
   // Net Annual Rent Equation New Code End ------------------------------------------
 
+  // // Gross ROI Equation - Original Code Start -----------------------------------------
+  // let uiGrossRoi = document.getElementById('gross_roi').value = 
+  // parseFloat((uiGrossAnnualRent) / parseFloat(uiPurchasePrice) * 100).toFixed(2);
+  // // parseFloat(((uiGrossAnnualRent / uiPurchasePrice)) * 100).toFixed(2);
+  // console.log("Gross ROI :" + uiGrossRoi)
+  // // Gross ROI Equation - Original Code End -----------------------------------------
+
   // Gross ROI Equation
-  let uiGrossRoi = document.getElementById('gross_roi').value = 
-  parseFloat((uiGrossAnnualRent) / parseFloat(uiPurchasePrice) * 100).toFixed(2);
-  console.log("Gross ROI :" + uiGrossRoi)
+  let uiGrossRoi = document.getElementById('gross_roi').value = ((uiGrossAnnualRent / uiPurchasePrice) * 100).toFixed(2);
+
+  // // Net ROI Equation - Original Code Start ----------------------------------------
+  // let uiNetRoi = document.getElementById('net_roi').value =
+  // parseFloat((uiNetAnnualRent) / parseFloat(uiPurchasePrice) * 100).toFixed(2);
+  // console.log("Net roi :" + uiNetRoi)
+  // // Net ROI Equation - Original Code End ----------------------------------------
 
   // Net ROI
-  let uiNetRoi = document.getElementById('net_roi').value =
-  parseFloat((uiNetAnnualRent) / parseFloat(uiPurchasePrice) * 100).toFixed(2);
+  let uiNetRoi = document.getElementById('net_roi').value = ((uiNetAnnualRent / uiPurchasePrice) * 100).toFixed(2);
+  console.log(typeof uiGrossRoi)
   console.log("Net roi :" + uiNetRoi)
 })
 
