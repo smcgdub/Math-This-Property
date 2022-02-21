@@ -1,10 +1,10 @@
-![Homepage displayed on multiple devices](images/readme_images/under_construction.jpg)
+![Homepage displayed on multiple devices](images/readme_images/am_i_responsive_image.png)
 
 # **Math My Property - Real Estate Calculator**
 
 ## **Introduction**
 
-This is a real estate app that allows landlords, investors, and prospective buyers to workout the returns a property will deliver them. The project will start out basic and i will expand it as time goes on to add more features. 
+This is a real estate app that allows landlords, investors, and prospective buyers to workout the returns a property will deliver for them. The project will start out basic and i will add more features and expand it as time goes by. I have added a request a feature function on the page to allow for user guided feedback.
 
 ### **1. User Experience (UX)**
   * 1.1 Target audience
@@ -71,7 +71,7 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **1.3 Business goals**
 
-* No business or monetary goals, just a user friendly tool that lets users workout and breakdown their bills in a few clicks.
+* No business or monetary goals, this is just a free user friendly tool that lets users workout the returns a property will produce for them.
 
 #### **1.4 User Stories**
 
@@ -94,9 +94,17 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **COLOURS**
 
-* Project is still under construction so colours finalized yet. 
+* Below you will see the colour palette i used for the project.
 
-![Image of the colour pallet used for the project](images/)
+![Image of the colour pallet used for the project](images/readme_images/math_this_property_colour_palette.png)
+
+* Originally when i was designing the site logo i came across this design on [Canva](https://www.canva.com/)
+
+![Image of the original logo](images/readme_images/original_logo_design.png)
+
+* I adjusted the colour scheme of the logo and ended up with the final logo below and colour scheme below:
+
+![Image of the final logo](images/math_this_property_logo.png)
 
 #### **1.6 Wire Frames** 
 
