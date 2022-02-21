@@ -62,8 +62,10 @@ input {
 #gross_roi,
 #net_roi {
   background-color: #617B94;
-  color: #fff;
+  color: #fff !important;
   border: 1px solid black !important;
+  /* Below is for safari font to be white */
+  -webkit-text-fill-color: #fff;
 }
 
 /* Navbar */
