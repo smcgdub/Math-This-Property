@@ -104,20 +104,20 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 * I adjusted the colour scheme of the logo and ended up with the final logo below and colour scheme below:
 
-![Image of the final logo](images/math_this_property_logo.png)
+![Image of the final logo](images/readme_images/math_this_property_logo_readme.png)
 
 #### **1.6 Wire Frames** 
 
 * The wireframes for the project can be seen below. There is a wireframe for desktop, tablet and mobile.
 
 #### **DESKTOP**
-![Desktop Wireframe]()
+![Desktop Wireframe](images/readme_images/math_this_property_desktop.png)
 
 #### **TABLET**
-![Tablet Wireframe]()
+![Tablet Wireframe](images/readme_images/math_this_property_tablet.png)
 
 #### **MOBILE**
-![Image of Navbar]()
+![Image of Navbar](images/readme_images/math_this_property_mobile.png)
 
 </details>
 
