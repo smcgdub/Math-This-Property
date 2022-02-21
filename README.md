@@ -276,7 +276,7 @@ You can also clone the project using Github Desktop. To do this you can do the f
 4. Click on the tab that says code 
 5. Above the files, click the button that says &#8595;code
 
-![Github code button](assets/images/github-code-button.png)
+![Github code button](images/readme_images/cloning_image_1.png)
 
 6. Click open with GitHub Desktop to clone and open the repository with GitHub Desktop.
 7. Click Choose... and, using the Finder window, navigate to a local path where you want to clone the repository.
