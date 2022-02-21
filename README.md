@@ -150,7 +150,7 @@ This is a real estate app that allows landlords, investors, and prospective buye
 #### **2.3 Action Buttons**
 
 ![Image of action buttons](images/readme_images/action_buttons_2.png)
-![Image of action buttons](images/readme_images/action_buttons_2.png)
+![Image of action buttons](images/readme_images/action_buttons_1.png)
 ![Image of action buttons](images/readme_images/action_buttons_3.png)
 
 * There are 2 button types for the user to interact with. They are:
@@ -316,7 +316,7 @@ Feel free to contact me on any of the following channels:<br>
 <hr>
 
 <details>
-<summary><strong>8. Contact</strong></summary>
+<summary><strong>8. Disclaimer</strong></summary>
 <br>
 
 * 8.1  This website and all of its content is for educational purposes only. There is no monetization or revenue generated from this site.
