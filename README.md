@@ -33,6 +33,7 @@ This is a real estate app that allows landlords, investors, and prospective buye
   * 3.8 Balsamiq
   * 3.9 Still to add animations
   * 3.10 Favicon.io
+  * 3.11 Canva 
 
   ### **4. Testing**
   * 4.1 See [testing.md](testing.md) document 
@@ -131,39 +132,62 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 ![Image of Navbar](images/readme_images/)
 
-* The Navbar is a standard bootstrap Navbar. It holds the company logo in the top left hand corner and menu items which are links. On mobile devices the logo and the site name will always stay visible.
+* The Navbar is a standard bootstrap Navbar. It holds the company logo in the top left hand corner and menu items which are links. On mobile devices the logo and the site name will always stay visible. On mobile devices the Navbar will collapse to a standard hamburger navbar.
+
+#### **DESKTOP**
+![Image of Navbar Desktop](images/readme_images/navbar_desktop.png)
+
+#### **MOBILE**
+![Image of Navbar Mobile Closed](images/readme_images/navbar_mobile_closed.png)
+
+#### **MOBILE**
+![Image of Navbar Mobile Open](images/readme_images/navbar_mobile_open.png)
 
 #### **2.2 User Inputs** 
 
-![Image of user inputs](images/readme_images/)
+![Image of user inputs](images/readme_images/user_input_field.png)
 
-* The user only has several inputs to work with. The are:  
+* The user only has several input fields to work with. The user input fields are coloured light yellow (#ffffe0 HEX) to differentiate them from the output fields.  
 
 #### **2.3 Action Buttons**
 
 ![Image of action buttons](images/readme_images/)
 
-* There are 2 button types for the user to interact with. The main one will trigger the calculated results once the user has added all of the information into the input fields. The second type of button is the reset button. Users have the ability to reset specific sections on the inputs, or to reset the entire form as a whole. 
+* There are 2 button types for the user to interact with. They are:
+
+1. Calculate monthly costs
+2. Calculate annual costs
+3. Calculate all costs
+
+* When the user presses one of these buttons the relevant calculations will be carried out and be displayed to the user. 
+
+* The 2nd type of button the user can interact with is the reset buttons. And they are:
+
+1. Reset monthly costs
+2. Reset annual costs
+3. Reset all costs
+
+* When the user presses one of these buttons the relevant fields will be reset to zero and displayed ot the user. 
 
 * Note: The user doesn't have to reset the entire calculator if they wish to change something after a breakdown has been given. If they wish to change something they can just adjust one single field and press the work it out button and the calculation will run again. 
 
 #### **2.4 Financial Breakdown**
 
-![Image of Financial Breakdown](images/readme_images/)
+![Image of the results fields](images/readme_images/the_results_fields.png)
 
 * The results section will show the user at a glance the detailed returns the property will deliver. These input fields have been disabled so users are unable to alter or adjust the information that gets displayed after the calculation has been displayed.   
 
 #### **2.5 Footer**
 
-![Image of footer](assets/images/footer.png)
+![Image of footer](images/readme_images/footer.png)
 
 * The footer contains the basic information on the site and the copyright.
 
 #### **2.6 Features Left To Implement**
 
 * As this projects is still under development i will be adding new features as i build it. 
-
-* I may also add a dark mode to the project. I am yet to finalize the design aspect of the project so a dark mode will depend on the primary design i decide to go with. 
+* I am aiming to look at possibly adding a dark mode
+* I have added a request a feature message box so users can request features
 
 </details>
 
@@ -182,7 +206,8 @@ This is a real estate app that allows landlords, investors, and prospective buye
 3.7 [Icons8](https://icons8.com/) - You can see a short YouTube video about Icons8 by clicking [Here](https://www.youtube.com/watch?v=C4TcBmdaa-Q&t=40s).<br>
 3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
 3.9 Need to add animations at a later date<br>
-3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project
+3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project<br>
+3.11 [Canva](https://www.canva.com/) - I used canva to design the logo for the site. They have a large number of templates that users can choose from and adjust to their own projects<br>
 </details>
 
 <hr>
