@@ -1,10 +1,10 @@
 ![Homepage displayed on multiple devices](images/readme_images/am_i_responsive_image.png)
 
-# **Math My Property - Real Estate Calculator**
+# **Math This Property - Real Estate Calculator**
 
 ## **Introduction**
 
-This is a real estate app that allows landlords, investors, and prospective buyers to workout the returns a property will deliver for them. The project will start out basic and i will add more features and expand it as time goes by. I have added a request a feature function on the page to allow for user guided feedback.
+This real estate app allows landlords, investors, and prospective buyers to workout the financial returns a property will deliver for them. Users can see gross and net returns as well as ROI (Return On Investment) as well as factor in all of the deductions. The project will start out basic and i will add more features and expand it as time goes by. I have added a request a feature function on the page to allow for user guided feedback.
 
 ### **1. User Experience (UX)**
   * 1.1 Target audience
@@ -64,15 +64,15 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **1.1 Target Audience**
 
-* This website is aimed at anyone who either owns, or is considering buying an investment property and wants to understand the kind of returns that property may deliver.
+* This website is aimed at anyone who either owns, or is considering buying an investment property and wants to understand the kind of financial returns that property may deliver.
 
 #### **1.2 Visitor goals** 
 
-* I want to be able to use the site to see at a glance the type of returns a property i own, or am thinking of buying, will return. 
+* I want to be able to use the site to enter some details and then see at a glance the type of financial returns a property i own, or am thinking of buying, will return. 
 
 #### **1.3 Business goals**
 
-* No business or monetary goals, this is just a free user friendly tool that lets users workout the returns a property will produce for them.
+* As the site owner there are no business or monetary goals, this is just a free user friendly tool that lets users workout the returns a property will produce for them.
 
 #### **1.4 User Stories**
 
@@ -81,17 +81,19 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **1.5 Design choices** 
 
-* Project is still under construction so nothing finalized yet. 
+* Below are the design choices i chose for the site. 
 
 #### **FONTS**
 
-* The ont i have chosen for this project is [Didact Gothic](https://fonts.google.com/specimen/Didact+Gothic?query=dida&sort=popularity&preview.text=This%20is%20how%20the%20font%20will%20look&preview.text_type=custom#standard-styles). Didact Gothic is a sans-serif font designed to present each letter in the form most often used in elementary classrooms. This makes it suitable for literacy efforts.
+* The font i have chosen for this project is [Didact Gothic](https://fonts.google.com/specimen/Didact+Gothic?query=dida&sort=popularity&preview.text=This%20is%20how%20the%20font%20will%20look&preview.text_type=custom#standard-styles). Didact Gothic is a sans-serif font designed to present each letter in the form most often used in elementary classrooms. This makes it suitable for literacy efforts.
 
 ![Image of how the font will look](images/readme_images/math_my_property_font.png)
 
 #### **ICONS**
 
 * I decided i would use [Icons8](https://icons8.com/) icons for the project. Icons8 has a wide range of colorful and animated icons that are free to use. 
+
+* I also used a small number of [Font Awesome](https://fontawesome.com/) icons on the site
 
 #### **COLOURS**
 
@@ -103,7 +105,7 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 ![Image of the original logo](images/readme_images/original_logo_design.png)
 
-* I adjusted the colour scheme of the logo and ended up with the final logo below and colour scheme below:
+* I did not like the red or the name so I adjusted the colour scheme and the name and ended up with the final logo below:
 
 ![Image of the final logo](images/readme_images/math_this_property_logo_readme.png)
 
@@ -145,7 +147,7 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 ![Image of user inputs](images/readme_images/user_input_field.png)
 
-* The user only has several input fields to work with. The user input fields are coloured light yellow (#ffffe0 HEX) to differentiate them from the output fields.  
+* The user has several input fields to work with. The user input fields are coloured light yellow (#ffffe0 HEX) to differentiate them from the output fields which are disabled so the user can not adjust them.  
 
 #### **2.3 Action Buttons**
 
@@ -155,9 +157,9 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 * There are 2 button types for the user to interact with. They are:
 
-1. Calculate monthly costs
-2. Calculate annual costs
-3. Calculate all costs
+1. Calculate monthly costs<br>
+2. Calculate annual costs<br>
+3. Calculate all costs<br>
 
 * When the user presses one of these buttons the relevant calculations will be carried out and be displayed to the user. 
 
@@ -185,9 +187,9 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **2.6 Features Left To Implement**
 
-* As this projects is still under development i will be adding new features as i build it. 
-* I am aiming to look at possibly adding a dark mode
+* As this projects is still under development i will be adding new features as i go
 * I have added a request a feature message box so users can request features
+* I am aiming to look at possibly adding a dark mode
 
 </details>
 
@@ -202,8 +204,8 @@ This is a real estate app that allows landlords, investors, and prospective buye
 3.3 [CSS - Cascading Style Sheet](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
 3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript was used to do the mathematics to give the user the full breakdown<br>
 3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
-3.6 [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
-3.7 [Icons8](https://icons8.com/) - You can see a short YouTube video about Icons8 by clicking [Here](https://www.youtube.com/watch?v=C4TcBmdaa-Q&t=40s).<br>
+3.6 [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families. I used the Google Font  Didact Gothic for this project<br>
+3.7 [Icons8](https://icons8.com/) - Icons8 is an alternative to Font Awesome and offers a wide range of colour and animated icons for people to use.<br>
 3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
 3.9 Need to add animations at a later date<br>
 3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project<br>
@@ -253,12 +255,12 @@ Cloning a repository using the command line
 2. Click on the tab that says < >code 
 3. Above the files, click the button that says &#8595;code
 
-![Github code button](assets/images/github-code-button.png)
+![Github code button](images/readme_images/cloning_image_1.png)
 
 4. From the menu select HTTPS
 5. Click on the clipboard icon on the right hand side (Image below)
 
-![Github copy link button](assets/images/github-clipboard.png)
+![Github copy link button](images/readme_images/github-clipboard.png)
 
 6. Open the terminal in your IDE
 7. Change the current working directory to the location where you want the cloned directory.
@@ -271,7 +273,7 @@ You can also clone the project using Github Desktop. To do this you can do the f
 1. Download Github Desktop if you do not already have it installed. The link can be found here [Github Desktop](https://desktop.github.com/)
 2. Sign in to GitHub and GitHub Desktop before you start to clone.
 3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Math-This-Property
-4. Click on the tab that says <details >code 
+4. Click on the tab that says code 
 5. Above the files, click the button that says &#8595;code
 
 ![Github code button](assets/images/github-code-button.png)
