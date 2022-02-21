@@ -130,8 +130,6 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **2.1 The Navbar**
 
-![Image of Navbar](images/readme_images/)
-
 * The Navbar is a standard bootstrap Navbar. It holds the company logo in the top left hand corner and menu items which are links. On mobile devices the logo and the site name will always stay visible. On mobile devices the Navbar will collapse to a standard hamburger navbar.
 
 #### **DESKTOP**
@@ -151,7 +149,9 @@ This is a real estate app that allows landlords, investors, and prospective buye
 
 #### **2.3 Action Buttons**
 
-![Image of action buttons](images/readme_images/)
+![Image of action buttons](images/readme_images/action_buttons_2.png)
+![Image of action buttons](images/readme_images/action_buttons_2.png)
+![Image of action buttons](images/readme_images/action_buttons_3.png)
 
 * There are 2 button types for the user to interact with. They are:
 
