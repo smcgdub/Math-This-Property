@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/debc4afe80.js" crossorigin="anonymous"></script>
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Math This Property</title>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <!-- Site Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img id="main_logo" src="images/math_this_property_logo.png" alt="">
+        <!-- Site Logo 2 -->
+        <!-- <img
+          src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/64/000000/external-real-estate-calculate-itim2101-lineal-color-itim2101.png" /> -->
+        <!-- Credit for icon -->
+        <!-- <a href="https://icons8.com/icon/uPxeSSSczHbw/real-estate">Real Estate icon by Icons8</a> -->
+      </a>
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar Items -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+
+          <!-- Request A Feature Button - trigger modal -->
+          <button type="button" class="btn msg_btn py-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Request A Feature <i class="fas fa-cogs"></i>
+          </button>
+
+          <!-- Report A Bug Button - trigger modal -->
+          <button type="button" class="btn msg_btn py-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+            Report A Bug <img class="pb-1"
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/20/000000/external-bug-interface-kiranshastry-solid-kiranshastry.png" />
+            <!-- Icon8 Credit -->
+            <!-- <a href="https://icons8.com/icon/kj4vbjR3in3R/bug">Bug icon by Icons8</a> -->
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Horizontal Line -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!-- Header -->
+        <h4 class="text-center">Lets do some maths</h4>
+        <!-- Property Value Input -->
+        <label class="animate__animated animate__fadeInBottomLeft" for="purchase_price">Purchase Price</label>
+        <div class="input-group mb-3 animate__animated animate__fadeInBottomLeft">
+          <input id="purchase_price" type="number" class="form-control" placeholder="0.00"
+            aria-label="Recipient's username" aria-describedby="" min="0.01" step="0.01" data-type="currency"
+            value="0.00" required>
+          <span class="input-group-text" id=""><img
+              src="https://img.icons8.com/external-wanicon-two-tone-wanicon/40/000000/external-real-estate-economic-crisis-wanicon-two-tone-wanicon.png" />
+            <!-- Icon8 Credit -->
+            <!-- <a href="https://icons8.com/icon/6LVzPRds8l8s/real-estate">Real Estate icon by Icons8</a> -->
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <!-- External JS file-->
+  <script src="javascript/app.js"></script>
+
+</body>
+
+</html>
