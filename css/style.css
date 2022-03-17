@@ -113,3 +113,8 @@ button {
 .msg_btn {
   font-size: 20px;
 }
+
+/* Footer */
+#github_link {
+  color: #000;
+}
