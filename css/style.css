@@ -25,8 +25,9 @@ input {
 #annual_cost_1,
 #annual_cost_2,
 #annual_cost_3,
-#annual_cost_4 {
-  background-color: lightyellow;
+#annual_cost_4,
+#additional_cost_added {
+  background-color: #ffffe0;
 }
 
 /* Placeholder Text Colour */
